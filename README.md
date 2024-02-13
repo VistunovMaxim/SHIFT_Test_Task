@@ -1,43 +1,31 @@
-SHIFT_Test_Task
+<h1>SHIFT_Test_Task</h1>
+<h3>Тестовое задание для ЦФТ:</h3>
 
-Тестовое задание для ЦФТ:
-
-Language:
-Java version: 21
-
-Assembly system:
-Apache Maven 3.9.4
-
-Libraries:
-1. Apache Commons Lang - 3.14.0
-   
-https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>3.14.0</version>
-        </dependency>
-
-2. Apache Commons CLI - 1.6.0
-
-https://mvnrepository.com/artifact/commons-cli/commons-cli
-        <dependency>
-            <groupId>commons-cli</groupId>
-            <artifactId>commons-cli</artifactId>
-            <version>1.6.0</version>
-        </dependency>
-   
-Сборка проекта:
+Language - ***Java version: 21***
+</br>
+Assembly system - ***Apache Maven 3.9.4***
+</br>
+Libraries:</br>
+[***Apache Commons Lang***](https://mvnrepository.com/artifact/org.apache.commons/commons-lang3)  - 3.14.0
+</br>
+[***Apache Commons CLI***](https://mvnrepository.com/artifact/commons-cli/commons-cli)  - 1.6.0
+<hr>
+<h3>Сборка проекта:</h3>
 mvn package
 
-Инструкция к запуску проекта:
-java -jar SHIFT_Test_Task-1.0-SNAPSHOT-jar-with-dependencies.jar (опции) (исходные файлы)
+<h3>Инструкция к запуску проекта:</h3>
+java -jar SHIFT_Test_Task-1.0-SNAPSHOT-jar-with-dependencies.jar <опции> <имена исходных файлов>
 
-Опции запуска:
--o - путь для сохранения результата работы программы
+<h3>Опции запуска:</h3>
+-o (path) - путь для сохранения результата работы программы
+</br>
 -p (prefix) - задаёт префикс для файлов с результатом
+</br>
 -a - если есть данная опция, записи добавляются в файлы с результатом, по умолчанию перезаписываются
+</br>
 -s - вывод короткой статистики в консоль после окончания работы
+</br>
 -f - вывод полной статистики в консоль после окончания работы
+</br>
 -h - все опции утилиты
 
